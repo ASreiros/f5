@@ -8,7 +8,6 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
   background-image: url(./img/backgroundish.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,27 +18,33 @@ body section {
   width: 80vw;
   height: 600px;
   margin: 10vh 0 0 10vw;
+  font-size: 0;
 }
 body section div {
+  width: 70vw;
+  font-size: 0;
+  margin: 50px auto;
+}
+body section div div {
   display: inline-block;
-  margin: 50px 0 0 5vw;
   width: 30vw;
   height: 500px;
   background-color: #FE6E78;
-  padding: 10px;
   text-align: left;
-  overflow: hidden;
 }
-body section div:first-child {
+body section div div:first-child {
   background-color: #709EFE;
-  margin-right: 4vw;
+  margin-right: 10vw;
 }
-body section div h2 {
-  margin: 10px;
+body section div div h2 {
+  display: block;
+  margin: 15px;
+  font-size: 26px;
 }
-body section div p {
-  top: 70px;
-  margin: 10px;
+body section div div p {
+  display: block;
+  font-size: 16px;
+  margin: 15px;
 }
 
 /*# sourceMappingURL=output.css.map */
