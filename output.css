@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(./img/backgroundish.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body section {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 80vw;
+  height: 600px;
+  margin: 10vh 0 0 10vw;
+}
+body section div {
+  display: inline-block;
+  margin: 50px 0 0 5vw;
+  width: 30vw;
+  height: 500px;
+  background-color: #FE6E78;
+  padding: 10px;
+  text-align: left;
+  overflow: hidden;
+}
+body section div:first-child {
+  background-color: #709EFE;
+  margin-right: 4vw;
+}
+body section div h2 {
+  margin: 10px;
+}
+body section div p {
+  top: 70px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=output.css.map */
